@@ -1,0 +1,10 @@
+
+Metrologia=float(input("ingrese la calificacion de la materia"))
+Algebra=float(input("ingrese la calificacion de la materia"))
+Calculo=float(input("ingrese la calificacion de la materia"))
+Economia=float(input("ingrese la calificacion de la materia"))
+Estadistica=float(input("ingrese la calificacion de la materia"))
+Est=float(input("ingrese la calificacion de la materia"))
+CantidadM=(6)
+Promedio=(Metrologia+Algebra+Calculo+Economia+Estadistica+Est)/(CantidadM)
+print("EL PROMEDIO DEL ESTUDIANTE ES: "+str(Promedio))
